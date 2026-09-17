@@ -1,5 +1,5 @@
 # vmc_relay.py
-XR AnimatorからのVMC通信をインターセプトし投げ直すツールです。高負荷環境でXR Animatorを使う人向け。
+XR AnimatorからのVMC通信(ポート39539)をインターセプトし、ポート39540に投げ直すツールです。高負荷環境でXR Animatorを使う人向け。
 
 1秒以上XR Animatorからの通信が停止した場合、最後に届いた通信内容を投げる感じです。
 
