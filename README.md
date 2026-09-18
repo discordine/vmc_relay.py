@@ -1,5 +1,5 @@
 # vmc_relay.py
-XR AnimatorからのVMC通信をインターセプトし、別ポートに投げ直すツールです。高負荷環境でXR Animatorを使う人向け。
+[XR Animator](https://github.com/ButzYung/SystemAnimatorOnline)からのVMC通信をインターセプトし、別ポートに投げ直すツールです。高負荷環境でXR Animatorを使う人向け。
 
 当該ソフトはモーションキャプチャとVMC送信が同一スレッドで動いており、高負荷時などでモーションキャプチャが停止するとVMCの送信も止まってしまいます。
 
